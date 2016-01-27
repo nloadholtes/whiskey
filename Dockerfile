@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt-get install -y libboost-python-dev
 
-RUN pip3 install pgmagick
+# RUN pip3 install pgmagick  # The python3 version has a problem
